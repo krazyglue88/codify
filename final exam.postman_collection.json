@@ -1,0 +1,386 @@
+{
+	"info": {
+		"_postman_id": "fb3119bb-bb88-491f-bf78-520a508f1107",
+		"name": "final exam",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27682321"
+	},
+	"item": [
+		{
+			"name": "Account/v1/User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"Ivan\",\r\n  \"password\": \"2566KKllf!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demoqa.com/Account/v1/User",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Account/v1/GenerateToken",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"Ivan\",\r\n  \"password\": \"2566KKllf!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demoqa.com/Account/v1/GenerateToken",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"GenerateToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Account/v1/Authorized",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"Ivan\",\r\n  \"password\": \"2566KKllf!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demoqa.com/Account/v1/Authorized",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"Authorized"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Account/v1/User/{UUID}",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "795d9857-18a0-4e90-9fd0-84524755601a",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": " Basic a3JhenlnbHVlOkhISGpqajQ5NCE=",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://demoqa.com/Account/v1/User/795d9857-18a0-4e90-9fd0-84524755601a",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User",
+						"795d9857-18a0-4e90-9fd0-84524755601a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Account/v1/User/{UUID}",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "777",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": " Basic a3JhenlnbHVlOkhISGpqajQ5NCE=",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://demoqa.com/Account/v1/User/16fbfa9e-58df-433f-bf93-80494e3fde67",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User",
+						"16fbfa9e-58df-433f-bf93-80494e3fde67"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BookStore/v1/Books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demoqa.com/BookStore/v1/Books",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BookStore/v1/Books",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "777",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": " Basic a3JhenlnbHVlOkhISGpqajQ5NCE=",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": \"16fbfa9e-58df-433f-bf93-80494e3fde67\",\r\n  \"collectionOfIsbns\": [\r\n    {\r\n      \"isbn\": \"9781449325862\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demoqa.com/BookStore/v1/Books",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BookStore/v1/Books",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "777",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": " Basic a3JhenlnbHVlOkhISGpqajQ5NCE=",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://demoqa.com/BookStore/v1/Books?UserId=16fbfa9e-58df-433f-bf93-80494e3fde67",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books"
+					],
+					"query": [
+						{
+							"key": "UserId",
+							"value": "16fbfa9e-58df-433f-bf93-80494e3fde67"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BookStore/v1/Book",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demoqa.com/BookStore/v1/Book?ISBN=9781449331818",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Book"
+					],
+					"query": [
+						{
+							"key": "ISBN",
+							"value": "9781449331818"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/BookStore/v1/Book",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "777",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": " Basic a3JhenlnbHVlOkhISGpqajQ5NCE=",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"isbn\": \"9781449331818\",\r\n  \"userId\": \"16fbfa9e-58df-433f-bf93-80494e3fde67\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demoqa.com/BookStore/v1/Book",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BookStore/v1/Books",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "777",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": " Basic a3JhenlnbHVlOkhISGpqajQ5NCE=",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": \"16fbfa9e-58df-433f-bf93-80494e3fde67\",\r\n  \"isbn\": \"9781593277574\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demoqa.com/BookStore/v1/Books/9781449331818",
+					"protocol": "https",
+					"host": [
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books",
+						"9781449331818"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
