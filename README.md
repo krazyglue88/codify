@@ -1,4 +1,5 @@
 Добавлены мои публичные файлы для финального экзамена в Codify Lab
+
 ![Screenshot_13](https://github.com/krazyglue88/codify/assets/139983939/e0a7a48f-ed9b-451f-a350-7a501fa6de83)
 ![Screenshot_14](https://github.com/krazyglue88/codify/assets/139983939/55518f99-b54f-4e5f-84c2-1f9d7745b368)
 ![Screenshot_19](https://github.com/krazyglue88/codify/assets/139983939/d8e06345-4b99-4251-86f8-ef3f1b70a68b)
