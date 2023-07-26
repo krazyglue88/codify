@@ -18,3 +18,12 @@
 ![Screenshot_19](https://github.com/krazyglue88/codify/assets/139983939/072b5cf0-fc1c-4c1b-8c88-899640f521c8)
 # Запуск тест плана Jmeter в терминале и создание результатов тестирования в jtl файле
 ![Screenshot_20](https://github.com/krazyglue88/codify/assets/139983939/f9955958-96dc-4e14-b5f8-9df74c71c23b)
+# Работа с СУБД MySQL
+![Screenshot_13](https://github.com/krazyglue88/codify/assets/139983939/c0c4b32f-77e2-40c6-abc5-c4efa2182624)
+![Screenshot_14](https://github.com/krazyglue88/codify/assets/139983939/66bb741e-98d8-4043-844a-2da0591a3f2a)
+![Screenshot_19](https://github.com/krazyglue88/codify/assets/139983939/00e4d873-1322-4e13-ad42-c23834f4caca)
+![Screenshot_20](https://github.com/krazyglue88/codify/assets/139983939/c044a3d5-6ecb-4ce3-aa73-2400403206b6)
+![Screenshot_23](https://github.com/krazyglue88/codify/assets/139983939/a86a68fc-2dd3-4479-a04d-61f02d7620ee)
+![Screenshot_24](https://github.com/krazyglue88/codify/assets/139983939/a48c8cef-2f3d-4ea2-b4c1-88a2f6f2ab9f)
+![Screenshot_25](https://github.com/krazyglue88/codify/assets/139983939/06476978-c3b1-45e9-ba2b-21431b75c9c3)
+![Screenshot_40](https://github.com/krazyglue88/codify/assets/139983939/cd09aa80-81fc-4c2c-89ea-c4c42305bff7)
